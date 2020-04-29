@@ -1,3 +1,4 @@
+require 'pry'
 class Student < User
 
   
@@ -6,7 +7,8 @@ class Student < User
     @knowledge = [] 
   end 
   
-  def learn
+  def learn(string)
+    binding.pry
     @knowledge << Teacher.teach
   end 
   
