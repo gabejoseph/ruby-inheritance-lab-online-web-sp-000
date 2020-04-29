@@ -2,7 +2,7 @@ class Student < User
 
   
   
-  def initializelearn
+  def initialize
     @knowledge = [] 
   end 
   
